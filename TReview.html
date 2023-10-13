@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Navbar.css">
+    <link rel="stylesheet" href="Review.css">
+
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Review</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg p-2" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand"><img src="img/Logo_Website.png" alt="" height="35px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end mt-1 me-1" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active text-white mt-1" aria-current="page" href="#">Help</a>
+              <a class="nav-link active text-white " aria-current="page" href="#"><img class="mb-1" src="img/Global.png" alt="" height="30px"></a>
+              <div class="dropdown mt-1 ms-1">
+                <a class=" dropdown mt-1 " role="button"  data-bs-toggle="dropdown" >
+                  <img src="img/menu-dropdown.png" alt="" height="40px" width="80px">
+                </a>
+                <ul class="dropdown-menu bg-secondary-subtle dropdown-menu-end" aria-labelledby="dropdownMenuLink">
+                  <li ><a class="dropdown-item"  href="#">Main</a></li>
+                  <li ><a class="dropdown-item"  href="Profile.html">Profile</a></li>
+                  <li ><a class="dropdown-item"  href="#">Logout</a></li>
+                  <li ><a class="dropdown-item"  href="#">Delete Account</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+<!-- ชิ้อสถานที่ -->
+<div class="Place-name">
+  <h2>gggggggggggggggggggggggggg</h2>
+</div>
+
+
+<div class="container">
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="slide-img/SlideShow_1.webp" ></div>
+      <div class="swiper-slide"><img src="slide-img/SlideShow_2.jpg" ></div>
+      <div class="swiper-slide"><img src="slide-img/SlideShow_3.jpg" ></div>
+      
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+  </div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<script>
+  const swiper = new Swiper('.swiper', {
+     autoplay: {
+        delay: 3000,
+        disbleOnInteraction: false,
+     },
+
+
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+
+});
+
+</script>
+
+<!-- ข้อมูล -->
+<div class=" NametextData">
+  <h3>ตลาดน้ำอโยธยา (ayodhya Floating Market)</h3>
+</div>
+
+
+<div class="taxtdata1">
+    <p> พิกัด : 65/19 หมู่ที่ 7ตำบลไผ่ลิงอำเภอพระนครศรีอยุธยาจังหวัดพระนครศรี
+     <br> อยุธยา  ในประเทศไทย
+    </p>
+  
+</div>
+
+<div class="taxtdata2">
+  <p>ข้อมูล : ไปเที่ยวทั้งทีนอกจากจะต้องไปเดินเที่ยวซึบซับบรรยากาศของจังหวัดต่างๆ
+    <br>ที่ไปแล้ว การกินของอร่อยๆ การช้อปปิ้ง ก็เป็นส่วนสำคัญที่พลาดไม่ได้เลยและถ้าไป
+   <br> อยุธยาก็ขอแนะนำว่าต้องไปตลาดน้ำอโยธยาเพราะที่นี่นอกจากจะได้บรรยากาศแบบ
+   <br> อยุธยาดั้งเดิมแล้ว ยังได้ทานของอร่อยๆ เยอะแยะมากมายอีกด้วย
+  </p>
+
+</div>
+
+<div class="taxtdata3">
+  <p>     กิจกรรม : ตลาดน้ำอโยธยามีพื้นที่ประมาณกว่า80ไร่นับเป็นสถานที่ท่องเที่ยวเชิง
+    <br>อนุรักษ์วัฒนธรรมไทยก่อตั้งขึ้นมาก็ทำให้ที่นี่กลายมาเป็นสถานที่ท่องเที่ยวใจกลาง
+    <br>เมืองนั่นเอง โดยจะเน้นสะท้อนวิถีชีวิตความเป็นอยู่แบบไทยในสมัยกรุงศรีอยุธยา
+    <br>ไม่ว่าจะเป็นด้านการแต่งกายการแสดงพื้นบ้านการละเล่นของกินของใช้ต่างๆรวมไป
+    <br>ถึงขนบธรรมเนียมประเพณีและสถาปัตยกรรมที่คงความงดงามเป็นเอกลักษณ์ของ
+    <br>จังหวัดพระนครศรีอยุธยานั่นเอง
+  </p>
+
+</div>
+
+<div class="comment">
+  <h3>ความคิดเห็น</h3>
+  <div class="comment-1">
+    kkkkk
+  </div>
+  <div class="comment-2">
+    lllll
+  </div>
+  <div class="comment-3">
+    jjjjjj
+  </div>
+
+</div>
+
+<div class="send-coment">
+  <form>
+      <textarea placeholder='เเสดงความคิดเห็น'></textarea>
+      <div class="btn">
+          <input type="submit" value='Comment'>
+          <button id='clear'>Cancel</button>
+      </div>
+  </form>
+</div>
+<script src='plugin.js'></script>  
+      <footer>
+        
+        <div class="footer-1">
+          <p>นโยบายคุกกี้</p>
+          <p>ความเป็นส่วนตัว</p>
+        </div>
+
+        <div class="straight-line-horizontal2"></div>
+
+
+        <div class="img-emoji">
+          <img src="/icon/emoji.png" height="25px">
+          <p>2022</p>
+        </div>
+      </footer>
+
+
+
+</body>
+</html>
